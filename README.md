@@ -4,7 +4,10 @@
 
 Only supports 8812AU chipset.
 
-Works fine with 5.2-rc1 kernel. Source now builds with no warnings or errors.
+Works fine with 5.3-rc7 kernel. Source now builds with no warnings or errors.
+
+** However module is tainted and needs work to make it kosher.
+** Version 5.2.20.2 is not tainted and is the preferred version, thus far.
 
 Added (cosmeticly edited) original Realtek_Changelog.txt, this README.md and dkms.conf.
 
